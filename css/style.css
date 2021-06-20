@@ -74,11 +74,16 @@ h1 {
 .services__btn {
     border: 1px solid #fc557c;
     color: #fc557c;
-    cursor: pointer;
     padding: 8px 15px;
     background: none;
+    transition: 0.3s;
 }
-
+.header__btn:hover,
+.services__btn:hover {
+    background-color: #fc557c;
+    color: #fff;
+    cursor: pointer;
+}
 .header__phone ul li a {
     font-size: 20px;
     font-family: 'Roboto-Bold', sans-serif;
